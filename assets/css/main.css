@@ -172,6 +172,9 @@ input, select, textarea {
     span {
 		color:red;
 	}
+	span2 {
+		color:grey ;
+	}
 	blink {
   -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
   animation: 1s linear infinite condemned_blink_effect;
@@ -205,7 +208,23 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h6 {
+	h1, h2, h4, h6 {
+		color: #00cc00;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}
+	h3 {
+		color: white;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}
+	h7 {
 		color: #00cc00;
 		font-weight: 600;
 		line-height: 1.5;
